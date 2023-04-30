@@ -6,20 +6,21 @@ A standard install uses pypng to generate PNG files and can also render QR codes
 pip install qrcode
 pip install image
 ```
-<mark>Usage</mark>
-#Usage
+
+# Usage
+
 From the command line, use the installed qr script:
 ```
 qr "Some text" > test.png
 ```
-#Or in Python, use the make shortcut function:
+# Or in Python, use the make shortcut function:
 ```
 import qrcode
 img = qrcode.make('Some data here')
 type(img)  # qrcode.image.pil.PilImage
 img.save("some_file.png")
 ```
-#Advanced Usage
+# Advanced Usage
 For more control, use the QRCode class. For example:
 ```
 import qrcode
@@ -36,6 +37,6 @@ qr.make(fit=True)
 img = qr.make_image(fill="black", back_color="white")
 img.save("test.png")
 ```
-#QR Code for my GitHub
+# QR Code for my GitHub
 
 ![test](https://user-images.githubusercontent.com/101722978/235346731-3867299a-2714-4f19-bc91-84b6c29d3442.png)
