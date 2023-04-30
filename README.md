@@ -1,4 +1,6 @@
-# QR-Code-Generator-
-QR Code Generator using Python
+# Python QR Code Generator
+Generate QR codes.
 
-![test](https://user-images.githubusercontent.com/101722978/235346252-5184fc58-e171-46d7-9c64-10a6c6286036.png)
+A standard install uses pypng to generate PNG files and can also render QR codes directly to the console. A standard install is just:
+
+pip install qrcode
