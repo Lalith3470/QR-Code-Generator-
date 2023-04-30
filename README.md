@@ -37,6 +37,6 @@ qr.make(fit=True)
 img = qr.make_image(fill="black", back_color="white")
 img.save("test.png")
 ```
-# QR Code for my GitHub
+# QR Code for my GitHub Profile
 
 ![test](https://user-images.githubusercontent.com/101722978/235346731-3867299a-2714-4f19-bc91-84b6c29d3442.png)
