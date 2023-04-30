@@ -6,6 +6,7 @@ A standard install uses pypng to generate PNG files and can also render QR codes
 pip install qrcode
 pip install image
 ```
+<mark>Usage</mark>
 #Usage
 From the command line, use the installed qr script:
 ```
